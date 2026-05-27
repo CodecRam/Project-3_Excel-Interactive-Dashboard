@@ -1,37 +1,58 @@
-# Project 3: Excel Interactive Dashboard
+# Excel Interactive Dashboard | Bike Buyers Analysis
 
-## Overview
-This repository contains an Excel-based interactive dashboard and a sample dataset for analysis. The dashboard is designed to provide a dynamic, filterable view of the data using Excel features such as slicers, pivot tables, and charts.
+*An interactive Excel dashboard exploring customer demographics and bike purchase behavior.*  
+![Excel](https://img.shields.io/badge/Microsoft-Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 
-## Repository Contents
-- `Project 3 (Excel).xlsx` — the interactive dashboard workbook.
-- `bike_buyers Main Dataset.xlsx` — the sample dataset used for analysis.
+## Dashboard Preview
 
-## Requirements
-- Microsoft Excel 2016 or later (Microsoft 365 recommended).
-- Basic familiarity with Excel filters, slicers, and charts.
+![Dashboard Preview](dashboard-preview.png)
 
-## Quick Start
-1. Clone this repository.
-2. Open `Project 3 (Excel).xlsx` in Excel.
-3. If prompted, enable editing and content.
-4. Use the slicers and filters to explore the dashboard.
+> Use slicers to filter by **Marital Status**, **Region**, and **Education**.
 
-## Updating Data
-If you modify the dataset or replace it with new data, update the dashboard’s source data accordingly and refresh all data connections in Excel (Data → Refresh All).
+## Project Overview
 
-## Contributing
-Contributions are welcome.
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/MyNewFeature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/MyNewFeature`).
-5. Open a Pull Request.
+This project analyzes the **Bike Buyers** dataset (`bike_buyers Main Dataset.xlsx`), which includes customer demographics, income, commute distance, and whether each customer purchased a bike. The dashboard helps answer questions such as *who is most likely to buy a bike*, *how income relates to purchase behavior*, and *how trends vary by region and education level*. The solution was built in Excel using Pivot Tables, Pivot Charts, and interactive slicers, with a cleaned/transformed sheet to ensure consistent categories and accurate reporting.
 
-## Issues
-Please file bugs or feature requests in the GitHub Issue Tracker for this repository.
+## Dashboard Features
 
-## Contact
-For questions, contact Ramkrushna Bhadekar:
-- Email: codecram@gmail.com
-- GitHub: [@CodecRam](https://github.com/CodecRam)
+- **Pivot Tables** to summarize purchase behavior across customer segments
+- **Interactive Slicers** for:
+  - Marital Status
+  - Region
+  - Education
+- **Charts**, including:
+  - Average Income by Gender
+  - Commute Distance vs Purchase
+  - Age Bracket vs Purchase
+- **Cleaned/transformed data sheet** to standardize values and support reliable pivots
+
+## Key Insights
+
+- Customers with **higher average income** tend to show a **higher likelihood of bike purchase**.
+- Certain **age brackets** contribute a larger share of bike purchases, indicating a clear target demographic.
+- Bike purchase behavior varies by **commute distance**, suggesting practical use-cases influence buying decisions.
+- **Regional differences** highlight locations with stronger demand and potential for targeted marketing.
+
+## Data Cleaning Steps Performed
+
+- Removed **duplicate** records
+- Standardized **Marital Status** values (M → Married, S → Single)
+- Standardized **Gender** values (M → Male, F → Female)
+- Created **Age Brackets** using a nested **IF** formula
+
+## Skills Demonstrated
+
+`Advanced Excel` · `Pivot Tables` · `Data Cleaning` · `Dashboard Design` · `Data Visualisation` · `Slicers` · `IF/Nested Formulas`
+
+## How to Use
+
+1. Download/clone the repository and open `Project 3 (Excel).xlsx` in Microsoft Excel.
+2. If prompted, click **Enable Editing** (and **Enable Content** if shown).
+3. Use the slicers (Marital Status, Region, Education) to filter the dashboard and explore the charts.
+
+## Author
+
+**Ramkrushna Bhadekar**  
+GitHub: [@CodecRam](https://github.com/CodecRam)  
+Email: codecram@gmail.com  
+LinkedIn: https://www.linkedin.com/in/ramkrushnabhadekar11/
